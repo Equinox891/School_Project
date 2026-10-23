@@ -1,3 +1,8 @@
+header{}
+nav{}
+main{}
+aside{}
+Footer{}
 .btn_baseDesign{
 text-align:Center;
 
@@ -6,5 +11,4 @@ text-align:Center;
 }
 &:active{
 
-}
 }
