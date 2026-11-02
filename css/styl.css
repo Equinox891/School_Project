@@ -5,7 +5,7 @@ aside{}
 Footer{}
 .btn_baseDesign{
 text-align:Center;
-
+border-radius:30px;
 &:hover{
 
 }
