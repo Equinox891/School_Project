@@ -19,7 +19,7 @@ Footer{
 
 }
 body{
-animation:invert;
+animation:bgAnimation;
 animation-timeline:scroll();
 }
 
