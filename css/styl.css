@@ -1,14 +1,43 @@
+@keyframes bgAnimation{
+    from{
+        background-color: bisque;
+        color:black;
+    }
+    to{
+        background-color: black;
+        color:white;
+    }
+}
+
 header{}
 nav{}
-main{}
+main{
+   
+}
 aside{}
-Footer{}
-.btn_baseDesign{
-text-align:Center;
-border-radius:30px;
-&:hover{
+Footer{
 
 }
-&:active{
+body{
+animation:invert;
+animation-timeline:scroll();
+}
 
-}}
+
+.btn_baseDesign{
+align-content: center; 
+border-radius:30px;
+color:black;
+font-size:30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+&:hover{
+opacity:0,6;
+color:aliceblue;
+}
+
+&:active{
+opacity:1;
+}
+}
+
