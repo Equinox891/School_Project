@@ -1,6 +1,10 @@
+body{
+animation:bgAnimation;
+animation-timeline:scroll();
+}
 @keyframes bgAnimation{
     from{
-        background-color: bisque;
+        background-color: white;
         color:black;
     }
     to{
@@ -8,9 +12,10 @@
         color:white;
     }
 }
-
 header{}
-nav{}
+nav{
+
+}
 main{
    
 }
@@ -18,25 +23,32 @@ aside{}
 Footer{
 
 }
-body{
-animation:bgAnimation;
-animation-timeline:scroll();
+
+
+a{
+    text-decoration: none;
+    color:black;
+    
 }
-
-
 .btn_baseDesign{
 align-content: center; 
 border-radius:30px;
 color:black;
-font-size:30px;
+font-size:auto;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 3px;
+width:auto;
+min-height: 20px;
+min-width: 30px;
 
 &:hover{
 opacity:0,6;
+background-color: green;
 color:aliceblue;
 }
 
 &:active{
+background-color: darkgreen; 
 opacity:1;
 }
 }

@@ -1,1 +1,1 @@
-
+Poszuk = document.getElementById("InformationSearch")
