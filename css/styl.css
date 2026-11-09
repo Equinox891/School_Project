@@ -12,10 +12,11 @@ animation-timeline:scroll();
         color:white;
     }
 }
+
 header, nav{
     display: flex;
     width: 100%;
-    align-items: center;
+   justify-content: center;
     text-align: center;
     gap:10px;
 }
@@ -42,8 +43,9 @@ img{
 
 nav{
 text-align: center;
-border: 1px solid black;
+padding:10px;
 } 
+
 .Text-Test{
 width:100px;
 height:100%;
@@ -60,7 +62,10 @@ aside{
 main{
    float:left;
 }
-aside{}
+aside{
+    float:right;
+}
+
 Footer{
     width:100%;
     overflow:hidden;
